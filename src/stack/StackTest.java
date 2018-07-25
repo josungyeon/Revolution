@@ -11,13 +11,8 @@ public class StackTest {
         stack.push("B");
         stack.push("C");
 
-        System.out.println("## Stack");
-
         while(!stack.isEmpty()) {
             System.out.println(stack.pop());
         }
-
-        // 예제) 스택 2개로 큐 구현하기
-
     }
 }
