@@ -1,6 +1,4 @@
-package linkedList;
-
-import linkedList.LinkedList;
+package chat02;
 
 /**
  * Created by sungyeon on 2018. 7. 18..

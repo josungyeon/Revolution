@@ -1,4 +1,4 @@
-package queue;
+package chat03;
 
 /**
  * Created by sungyeon on 2018. 7. 23..

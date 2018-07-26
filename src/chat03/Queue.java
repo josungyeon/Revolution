@@ -1,4 +1,4 @@
-package queue;
+package chat03;
 
 import java.util.NoSuchElementException;
 
