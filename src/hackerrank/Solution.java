@@ -26,17 +26,8 @@ public class Solution {
             for(int j = 0; j < 4; j++) {
                 int sum = arr[i][j] + arr[i][j+1] + arr[i][j+2] + arr[i+1][j+1] + arr[i+2][j] + arr[i+2][j+1] + arr[i+2][j+2];
                 if (maxResult < sum) {
-                    /* 최대 array 넣는 작업은 사실 안해줘도 될 듯 */
-                    maxArray[0][0] = arr[i][j];
-                    maxArray[0][1] = arr[i][j+1];
-                    maxArray[0][2] = arr[i][j+2];
-                    maxArray[1][1] = arr[i+1][j+1];
-                    maxArray[2][0] = arr[i+2][j];
-                    maxArray[2][1] = arr[i+2][j+1];
-                    maxArray[2][2] = arr[i+2][j+2];
                     maxResult = sum;
                 }
-
             }
         }
 
